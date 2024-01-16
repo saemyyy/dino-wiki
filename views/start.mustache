@@ -1,0 +1,19 @@
+{{> header}}
+
+<main>
+<p>Dinopedia is your gateway to the fascinating world of dinosaurs. Step back in time and explore the incredible history of these magnificent creatures that once ruled our planet. Whether you're a seasoned paleontology enthusiast or just starting your journey into the world of dinosaurs, our comprehensive collection of articles, images, and interactive resources will captivate your imagination and expand your knowledge.<p>
+
+    <h2>Categories</h2>   
+
+
+       <div class="first">
+
+       {{#diets}}
+        <a href="/diet/{{diet}}">{{diet}}</a>
+       {{/diets}}
+
+       </div>
+ <a class="new_post" href="/new_post"> New Post </a>
+</main>
+
+{{> footer}}

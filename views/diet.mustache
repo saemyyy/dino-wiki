@@ -1,0 +1,18 @@
+<body class="{{diet}}">
+
+{{> header}}
+
+<h2>{{diet}}</h2>
+
+{{#dinos}}
+<ul>
+<li><a href="/dino/{{dino_id}}">
+    {{name}}
+
+</a></li>
+</ul>
+{{/dinos}}
+
+{{> footer}}
+
+</body>

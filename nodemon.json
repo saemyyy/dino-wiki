@@ -1,0 +1,4 @@
+{
+  "restartable": "rs",
+  "ext": "js,json,css,mustache"
+}

@@ -1,0 +1,173 @@
+:root {
+  color: white;
+}
+
+* {
+  font-family: "PT Serif", serif;
+}
+
+/* Google Icon Settings */
+.material-symbols-outlined {
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 24;
+  font-size: 40px !important;
+}
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 5vw;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 4vw;
+  display: flex;
+  justify-content: center;
+}
+
+/* body */
+
+body {
+  margin: 0;
+  background-image: url(public/uploads/img/bg/hintergrundbild.jpg);
+}
+
+.content {
+  background-color: #292929;
+  color: white;
+
+  padding: 5vh 10vw;
+}
+
+.register-text {
+  font-size: 2.5vw;
+  display: flex;
+}
+/* Categories */
+
+.first {
+  max-width: 940vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first a {
+  background-color: rgba(233 171 88);
+  padding: 4vw;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.first > div {
+  border-radius: 5vw;
+  padding: 1vw;
+  color: white;
+}
+
+section a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section ul {
+  font-size: 30px;
+}
+
+/* Footer */
+
+hr {
+  margin: 5vh 0;
+}
+
+footer {
+  padding-top: 6vw;
+}
+
+footer a {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 300px) {
+  .first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+input[type="text"],
+input[type="password"] {
+  border-radius: 20px;
+  border-style: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  border-radius: 25px;
+  border-style: none;
+  font-size: 20px;
+  padding: 8px 20px;
+  font-weight: 700;
+  background-color: #ffffff;
+}
+
+button {
+  border-radius: 25px;
+  border-style: none;
+  font-size: 15px;
+  padding: 4px 10px;
+  font-weight: 700;
+  background-color: #ffffff;
+}
+
+button a {
+  text-decoration: none;
+  color: #292929;
+}
+
+input[type="submit"]:hover,
+button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+form {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.detail-img img {
+  width: 30vw;
+  padding-bottom: 5vw;
+}
+
+.new_post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}

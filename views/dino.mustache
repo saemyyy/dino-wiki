@@ -1,0 +1,14 @@
+{{> header}}
+
+<h1>{{dino.name}}</h1>
+<p>Diet: {{dino.diet}}</p>
+<p>Lifespan: {{dino.lifespan}}</p>
+<p>Habitat: {{dino.habitat}}</p>
+<p>Period: {{dino.period}}</p>
+<div class="detail-img">
+<img src="/uploads/{{dino.picture}}">
+</div>
+<form action="/like/{{dino.dino_id}}" enctype="multipart/form-data" method="POST">
+  <input type="submit" value="liken">
+</form>
+{{> footer}}

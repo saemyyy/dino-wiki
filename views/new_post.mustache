@@ -1,0 +1,16 @@
+{{> header}}
+<form action="/new_post" enctype="multipart/form-data" method="post">
+  Name: <input type="text" name="name"><br>
+  Diet: <label for="diet"></label> 
+        <select id="diet" name="diet"><br>
+        <option value="Carnivore">Carnivore</option>
+        <option value="Omnivore">Omnivore</option>
+        <option value="Herbivore">Herbivore</option>
+      </select> <br>
+  Lifespan: <input type="text" name="lifespan"><br>
+  Habitat: <input type="text" name="habitat"><br>
+  Period: <input type="text" name="period"><br>
+  Picture: <input type="file" name="picture"><br>
+  <input type="submit">
+</form>
+{{> footer}}
